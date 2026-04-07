@@ -78,7 +78,9 @@ function createObject(name, subs) {
         name,
         subscribers: subs,
         hash: name.length * subs,
-        getStatus: () => `El canal de ${this.name} tiene ${this.subscribers} suscriptores`
+        getStatus: function () {
+          return `El canal de ${this.name} tiene ${this.subscribers} suscriptores`
+        }
     }
 }
 console.log(createObject('Miguel', 100).getStatus());
