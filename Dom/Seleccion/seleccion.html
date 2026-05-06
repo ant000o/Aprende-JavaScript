@@ -1,0 +1,88 @@
+<!-- 
+    ¿Qué es el DOM?
+
+    DOM significa Document Object Model (Modelo de Objeto del Documento). 
+    Es la representación que hace JavaScript de una página web. 
+    Piensa en el DOM como un árbol donde cada elemento HTML es un nodo que puedes manipular con JavaScript. 
+-->
+
+<!DOCTYPE html>
+    <html>
+    <head>
+        <title>Mi página</title>
+    </head>
+    <body>
+        <h1 id="titulo">¡Hola Mundo!</h1>
+        <p class="descripcion">Esta es mi primera página interactiva</p>
+        <button>Click me</button>
+    </body>
+</html>
+
+
+<!-- 
+    JavaScript ve esta página como un objeto con propiedades y métodos que podemos usar para:
+
+    ✅ Seleccionar elementos
+    ✅ Modificar contenido
+    ✅ Cambiar estilos
+    ✅ Responder a eventos del usuario
+-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- 
+    Ejemplos Prácticos
+    Ejemplo 1: Página de perfil de usuario
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<body>
+    <header>
+        <h1 id="nombre-usuario">Juan Pérez</h1>
+        <img id="avatar" src="avatar.jpg" alt="Avatar">
+    </header>
+
+    <main>
+        <section class="informacion">
+            <p class="email">juan@ejemplo.com</p>
+            <p class="telefono">+56 9 7452 3543</p>
+        </section>
+
+        <section class="redes-sociales">
+            <a href="#" class="red-social" data-red="twitter">Twitter</a>
+            <a href="#" class="red-social" data-red="linkedin">LinkedIn</a>
+            <a href="#" class="red-social" data-red="github">GitHub</a>
+        </section>
+    </main>
+</body>
+</html>
+
+
+
+
+
+<!-- Ejemplo 2: Lista de tareas -->
+<div id="todo-app">
+    <h2>Mis Tareas</h2>
+    <ul id="lista-tareas">
+        <li class="tarea completada">Aprender HTML</li>
+        <li class="tarea">Aprender CSS</li>
+        <li class="tarea">Aprender JavaScript</li>
+        <li class="tarea urgente">Hacer ejercicios</li>
+    </ul>
+    <button id="agregar-tarea">Agregar Tarea</button>
+</div>

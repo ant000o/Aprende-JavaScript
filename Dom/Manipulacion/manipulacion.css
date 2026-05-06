@@ -1,0 +1,15 @@
+/* Tema claro (por defecto) */
+body {
+    background-color: white;
+    color: black;
+}
+
+/* Tema oscuro */
+body.dark-theme {
+    background-color: #1a1a1a;
+    color: white;
+}
+
+body.dark-theme header {
+    background-color: #333;
+}
